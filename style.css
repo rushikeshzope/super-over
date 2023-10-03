@@ -40,7 +40,7 @@ section {
   background-color: white;
   margin: 5px;
   color: black;
-  line-height: 40px;
+  line-height: 30px;
   font-weight: bold;
   font-size: 2em;
   text-align: center;
@@ -48,35 +48,35 @@ section {
 }
 
 .scoreboard {
-    font-size: 3em;
-    font-weight: bold;
-  }
-  
-.score {
-    padding: 30px;
-    height: auto;
-    border-radius: 20px;
-    margin: 0 50px;
-  }
-  
-.button {
-    width: 100px;
-    font-size: 1.5em;
-    cursor: pointer;
-    margin: 0 30px;
-  }
+  font-size: 3em;
+  font-weight: bold;
+}
 
-  #team1 {
-    display: inline-block;
-    background-color: #005fa2;
-  }
-  
-  #team2 {
-    display: inline-block;
-    background-color: #1fa83d;
-  }
-  
-  #team1-superover,
-  #team2-superover {
-    margin: 20px;
-  }
+.score {
+  padding: 30px;
+  height: auto;
+  border-radius: 20px;
+  margin: 0 50px;
+}
+
+.button {
+  width: 180px;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin: 0 30px;
+}
+
+#team1 {
+  display: inline-block;
+  background-color: #005fa2;
+}
+
+#team2 {
+  display: inline-block;
+  background-color: #1fa83d;
+}
+
+#team1-superover,
+#team2-superover {
+  margin: 20px;
+}
